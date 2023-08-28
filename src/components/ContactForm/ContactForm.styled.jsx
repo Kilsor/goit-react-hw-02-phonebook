@@ -4,6 +4,10 @@ export const FormWrapper = styled.form`
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 12px;
+  padding: 12px;
 
   label {
     margin-bottom: 5px;

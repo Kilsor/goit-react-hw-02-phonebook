@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 export const ListWrapper = styled.ul`
   list-style: none;
-  padding: 0;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 12px;
+  padding: 12px;
 
   li {
     display: flex;
